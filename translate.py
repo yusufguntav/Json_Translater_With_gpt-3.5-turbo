@@ -69,7 +69,6 @@ for fileName in filesToAddTranslation:
         'Translate this json to {0} for app"{1}"'.format(fileLanguage, textToBeTranslated))
 
     TranslatedText = controlForSyntaxProblem(TranslatedText)
-    TranslatedText = controlForSyntaxProblem(TranslatedText)
 
     # Read file for main text and make the main text suitable for adding the translated text
     file = codecs.open(filesToAddTranslationLocation +
